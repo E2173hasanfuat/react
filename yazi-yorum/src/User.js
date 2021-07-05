@@ -1,4 +1,6 @@
 import React from 'react';
+
+
 const User = ({ kullanicilar, name, color }) => {
   console.log(kullanicilar, name, color);
   //[<div>merhab....</div>,<div>Merhababkd</div>,<div>Merhabab</div>]
@@ -9,6 +11,6 @@ const User = ({ kullanicilar, name, color }) => {
       </div>
     );
   });
-  return <React.Fragment>{renderedUsers}</React.Fragment>;
+  return <>{renderedUsers}</>;
 };
 export default User;
